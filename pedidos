@@ -1,0 +1,13 @@
+de  serializadores de importação rest_framework  
+de  modelos de importação de pedidos 
+de  Django . contrib . aut . usuários de importação de modelos  
+
+classe  PedidosSerializer ( serializadores . ModelSerializer ):
+    Classe  Meta :
+        modelo  =  modelos . pedidos
+        campos  =  '__all__'
+
+class  UsuariosSerializer ( serializers . ModelSerializer ):
+    Classe  Meta :
+        modelo  =  usuário
+        campos  =  '__all__'
